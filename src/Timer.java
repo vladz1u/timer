@@ -37,10 +37,6 @@ public class Timer extends JFrame implements ActionListener {
             }
         }
     }
-
-    public static void main(String[] args) {
-        new Timer();
-    }
 }
 
 class TimerThread extends Thread {
